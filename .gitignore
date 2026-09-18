@@ -1,0 +1,20 @@
+# ==============================================================================
+# TermPilot .gitignore
+# ==============================================================================
+
+# Local Cache & Runtime files
+cache/*.cache
+config/custom_commands.db
+
+# OS & Editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Logs & Temporary files
+*.log
+/tmp/
